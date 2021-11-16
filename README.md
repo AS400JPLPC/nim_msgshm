@@ -24,14 +24,14 @@ example :
 msgq01 msgq02  
   
   
-api "C"  to connect module nim   
+api "C"  to connect module nim<br>   
   
 respect process type Linux and os400 unix   
   
 data len max 1024 *all character  
   
   
-For the realization I relied on the documentation:
+For the realization I relied on the documentation: <br>
 IBM ZOS
 LINUX system development under Linux (Eyrolles)
 advanced NIM documentation 
