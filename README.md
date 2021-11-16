@@ -31,10 +31,13 @@ respect process type Linux and os400 unix
 data len max 1024 *all character  
   
   
-For the realization I relied on the documentation: <br>
-IBM ZOS <br>
-LINUX system development under Linux (Eyrolles) <br>
-advanced NIM documentation  <br>
+For the realization I relied on the documentation: 
+
+IBM ZOS 
+
+LINUX system development under Linux (Eyrolles) 
+
+advanced NIM documentation  
 
 
 doc : [SOURCE](https://github.com/AS400JPLPC/nim_msgshm/blob/master/exemple/msgq01.nim)
