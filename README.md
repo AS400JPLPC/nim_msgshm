@@ -7,7 +7,7 @@ the goal is to be able to communicate between two or more programs or between th
 
 functions:  
   
-msgget  ---> oppen zone communiquation  shared  
+msgget  ---> opening shared communication area   
   
 msgsend ---> send message  
   
@@ -16,8 +16,9 @@ msgread ---> get message and len
 getNbrMsg -> get number message  
   
   
-msgctl  --->  close and delte zone communication  
+msgctl  --->  close and delete zone communication  
   
+doc : [MSGSHM](http://htmlpreview.github.io/?https://github.com/AS400JPLPC/nim_msgshm/blob/master/htmldocs/msgshm.html)
   
 example :  
   
