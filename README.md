@@ -44,3 +44,20 @@ advanced NIM documentation
 doc : [SOURCE](https://github.com/AS400JPLPC/nim_msgshm/blob/master/exemple/msgq01.nim)
 
 doc : [SOURCE](https://github.com/AS400JPLPC/nim_msgshm/blob/master/exemple/msgq02.nim)
+
+
+message :)
+
+Suddenly, if I understood correctly, it is network communication on the local loop between threads within the same process, 
+
+so that it is practical, simple to implement and quite flexible.
+
+=> There is no limitation of signals under linux (signals already dedicated or not very customizable)
+
+=> no need to configure and implement (and therefore maintain) a message bus system.
+
+=> The message mechanism leaves flexibility, with a limitation of 1024 characters but which precisely 
+
+allows not to have messages that would contain huge clusters of data 
+
+(it is not made for, by design, which de facto maintains the performance ) 
