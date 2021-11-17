@@ -46,7 +46,7 @@ doc : [SOURCE](https://github.com/AS400JPLPC/nim_msgshm/blob/master/exemple/msgq
 doc : [SOURCE](https://github.com/AS400JPLPC/nim_msgshm/blob/master/exemple/msgq02.nim)
 
 
-message :)
+message  friend :)
 
 Suddenly, if I understood correctly, it is network communication on the local loop between threads within the same process, 
 
